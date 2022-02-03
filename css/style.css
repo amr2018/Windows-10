@@ -1,0 +1,179 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.desk-top {
+    background-image: url(../background/bg1.jfif);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.taskbar {
+    height: 42px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(255 255 255 / 26%);
+}
+
+.win-start {
+    height: 42px;
+    width: 48px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.win-start:hover {
+    background-color: #b3b3b33b;
+    color: #1ad9f1;
+}
+
+.taskbar-icons {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 16px;
+    width: 217px;
+    font-size: 19px;
+    padding: 16px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.taskbar-icons .td {
+    font-size: 12px;
+}
+
+.taskbar-icons .t{
+    text-align: center;
+}
+
+.contextmenu {
+    display: none;
+    position: absolute;
+    background-color: #1a1d1e;
+    color: white;
+    font-size: 13px;
+    padding-top: 7px;
+    height: 177px;
+    width: 187px;
+    border: 1px solid;
+    z-index: 1;
+}
+
+.contextmenu .option {
+    padding-left: 38px;
+    width: 79%;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+.contextmenu .option:hover {
+    background-color: #666666;
+}
+
+.icon-style {
+    height: 43px;
+    width: 81px;
+    position: absolute;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid #4c6a6e00;
+}
+
+.icon-style img{
+    height: 100%;
+    width: 100%;
+}
+
+.icon-style:hover {
+    background-color: #79817e2e;
+    border: 1px solid #4c6a6e;
+}
+
+.start-menu {
+    background-color: black;
+    position: absolute;
+    bottom: 42px;
+    width: 601px;
+    height: 540px;
+    display: flex;
+    flex-direction: row;
+    opacity: 0;
+    display: none;
+}
+
+.start-menu .col1{
+    width: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.start-menu .col1 i {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    margin-bottom: 18;
+    color: white;
+}
+
+.appslist {
+    width: 290px;
+}
+
+.appslist i {
+    width: 95%;
+    display: block;
+    font-size: 22px;
+    padding: 7px;
+    color: white;
+}
+
+.aname {
+    color: #fff7e7;
+    display: flex;
+}
+
+.aname:hover {
+    background-color: #e9ffff54;
+}
+
+.aname span {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.news {
+    padding: 11px;
+}
+
+.news i {
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-color: #e91e63;
+    font-size: 75px;
+    color: white;
+    text-align: center;
+    line-height: 98px;
+    margin-bottom: 5px;
+}
+
+.v {
+    opacity: 1 !important;
+    display: flex;
+}
